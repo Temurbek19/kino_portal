@@ -1,0 +1,66 @@
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #211e36;
+    z-index: 20;
+    .header {
+        width: 100%;
+        max-width: 1320px;
+        margin: 0 auto;
+        padding: 15px 0;
+        button {
+            margin-right: 50px;
+            padding: 7px 15px;
+            transition: all ease 0.5s;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            background-color: transparent;
+            color: #fff;
+            font-size: 18px;
+            font-weight: bold;
+            &:hover {
+                background-color: rgba(231, 223, 223, 0.8);
+                color: #000;
+                padding: 7px 15px;
+                border-radius: 10px;
+            }
+            &:active {
+                background-color: rgba(231, 223, 223, 0.6);
+                color: #000;
+                padding: 7px 15px;
+                border-radius: 10px;
+            }
+        }
+        .link {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            padding: 7px 15px;
+            transition: all ease 0.5s;
+            font-size: 18px;
+            &:hover {
+                background-color: rgba(231, 223, 223, 0.8);
+                color: #000;
+                padding: 7px 15px;
+                border-radius: 10px;
+            }
+            &:active {
+                background-color: rgba(231, 223, 223, 0.6);
+                color: #000;
+                padding: 7px 15px;
+                border-radius: 10px;
+            }
+        }
+        .link.active {
+            background-color: rgba(231, 223, 223, 0.8);
+            color: #000;
+            border-radius: 10px;
+        }
+        .populars, .movies, .top-films, .triller-page {
+            margin-left: 50px;
+        }
+    }
+}
